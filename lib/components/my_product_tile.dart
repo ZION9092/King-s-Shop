@@ -96,6 +96,7 @@ class MyProductTile extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 //produc price
+                // ignore: prefer_interpolation_to_compose_strings
                 Text('\$' + product.price.toStringAsFixed(2)),
 
                 IconButton(
@@ -104,7 +105,7 @@ class MyProductTile extends StatelessWidget {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           color: Theme.of(context).colorScheme.secondary),
-                          padding: EdgeInsets.all(15),
+                          padding: const EdgeInsets.all(15),
                       child: const Icon(Icons.add)),
                 )
               ],
