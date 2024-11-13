@@ -8,21 +8,25 @@ class Shop extends ChangeNotifier {
       name: "Dell Latitude E7470",
       price: 99.99,
       description: "High fucntion laptop",
+      imagePath: "assets/Dell.jpeg"
     ),
     Product(
       name: "HP Pavilion",
       price: 99.99,
       description: "Long Lasting Battery",
+      imagePath: "assets/HP.jpeg"
     ),
     Product(
       name: "Lenovo ThinkPad",
       price: 99.99,
       description: "Durable",
+      imagePath: "assets/lenovo.jpeg"
     ),
     Product(
       name: "Asus ZenBook",
       price: 99.99,
       description: "Fantastic gaming experiences...",
+      imagePath: "assets/asus.jpeg"
     ),
   ];
 
